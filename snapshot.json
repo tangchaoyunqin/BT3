@@ -1,55 +1,55 @@
 {
- "updated": "2026-11-20T21:15:19+00:00",
+ "updated": "2026-11-20T22:01:46+00:00",
  "sources": {
   "etf": {
    "ok": false,
-   "at": "2026-11-20T21:15:20+00:00",
+   "at": "2026-11-20T22:01:47+00:00",
    "error": "Farside 表格中未找到 Total 列 (页面结构可能已变)",
    "fallback": "无可用数据"
   },
   "stable": {
    "ok": true,
-   "at": "2026-11-20T21:15:20+00:00"
+   "at": "2026-11-20T22:01:47+00:00"
   },
   "macro": {
    "ok": false,
-   "at": "2026-11-20T21:15:40+00:00",
+   "at": "2026-11-20T22:02:07+00:00",
    "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)",
    "fallback": "无可用数据"
   },
   "premium": {
    "ok": false,
-   "at": "2026-11-20T21:15:40+00:00",
+   "at": "2026-11-20T22:02:07+00:00",
    "error": "451 Client Error:  for url: https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
    "fallback": "无可用数据"
   },
   "derivs": {
    "ok": false,
-   "at": "2026-11-20T21:15:40+00:00",
+   "at": "2026-11-20T22:02:08+00:00",
    "error": "451 Client Error:  for url: https://fapi.binance.com/futures/data/globalLongShortAccountRatio?symbol=BTCUSDT&period=1d&limit=500",
    "fallback": "无可用数据"
   },
   "trend": {
    "ok": false,
-   "at": "2026-11-20T21:15:40+00:00",
+   "at": "2026-11-20T22:02:08+00:00",
    "error": "451 Client Error:  for url: https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1d&limit=500",
    "fallback": "无可用数据"
   },
   "cot": {
    "ok": true,
-   "at": "2026-11-20T21:15:44+00:00"
+   "at": "2026-11-20T22:02:09+00:00"
   },
   "onchain": {
    "ok": true,
-   "at": "2026-11-20T21:15:52+00:00"
+   "at": "2026-11-20T22:02:16+00:00"
   },
   "deribit": {
    "ok": true,
-   "at": "2026-11-20T21:15:52+00:00"
+   "at": "2026-11-20T22:02:16+00:00"
   },
   "extra": {
    "ok": true,
-   "at": "2026-11-20T21:17:13+00:00"
+   "at": "2026-11-20T22:03:37+00:00"
   }
  },
  "notes": {
@@ -4520,8 +4520,8 @@
  "deribit": {
   "put_call_oi": 0.833,
   "btc_options_oi": 399808.1,
-  "dvol": 52.93,
-  "dvol_chg_7d": 0.3356,
+  "dvol": 54.04,
+  "dvol_chg_7d": 0.3839,
   "asof": "2026-11-20"
  },
  "extra": {
@@ -4662,7 +4662,7 @@
   {
    "cat": "期权",
    "name": "BTC 隐含波动率 DVOL",
-   "value": 52.93,
+   "value": 54.04,
    "asof": "2026-11-20",
    "status": "ok",
    "note": ""
