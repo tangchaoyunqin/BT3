@@ -1,55 +1,55 @@
 {
- "updated": "2026-11-21T03:30:06+00:00",
+ "updated": "2026-11-21T04:27:36+00:00",
  "sources": {
   "etf": {
    "ok": false,
-   "at": "2026-11-21T03:30:10+00:00",
+   "at": "2026-11-21T04:27:38+00:00",
    "error": "Farside 表格中未找到 Total 列 (页面结构可能已变)",
    "fallback": "无可用数据"
   },
   "stable": {
    "ok": true,
-   "at": "2026-11-21T03:30:11+00:00"
+   "at": "2026-11-21T04:27:38+00:00"
   },
   "macro": {
    "ok": false,
-   "at": "2026-11-21T03:30:31+00:00",
+   "at": "2026-11-21T04:27:58+00:00",
    "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)",
    "fallback": "无可用数据"
   },
   "premium": {
    "ok": false,
-   "at": "2026-11-21T03:30:31+00:00",
+   "at": "2026-11-21T04:27:59+00:00",
    "error": "451 Client Error:  for url: https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
    "fallback": "无可用数据"
   },
   "derivs": {
    "ok": false,
-   "at": "2026-11-21T03:30:31+00:00",
+   "at": "2026-11-21T04:27:59+00:00",
    "error": "451 Client Error:  for url: https://fapi.binance.com/futures/data/globalLongShortAccountRatio?symbol=BTCUSDT&period=1d&limit=500",
    "fallback": "无可用数据"
   },
   "trend": {
    "ok": false,
-   "at": "2026-11-21T03:30:31+00:00",
+   "at": "2026-11-21T04:27:59+00:00",
    "error": "451 Client Error:  for url: https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1d&limit=500",
    "fallback": "无可用数据"
   },
   "cot": {
    "ok": true,
-   "at": "2026-11-21T03:30:32+00:00"
+   "at": "2026-11-21T04:28:01+00:00"
   },
   "onchain": {
    "ok": true,
-   "at": "2026-11-21T03:30:36+00:00"
+   "at": "2026-11-21T04:28:07+00:00"
   },
   "deribit": {
    "ok": true,
-   "at": "2026-11-21T03:30:37+00:00"
+   "at": "2026-11-21T04:28:08+00:00"
   },
   "extra": {
    "ok": true,
-   "at": "2026-11-21T03:31:58+00:00"
+   "at": "2026-11-21T04:29:28+00:00"
   }
  },
  "notes": {
@@ -3336,7 +3336,7 @@
   "2026-11-18": 286256784377.0,
   "2026-11-19": 285227236626.0,
   "2026-11-20": 283440823804.0,
-  "2026-11-21": 282534764134.83
+  "2026-11-21": 282556252429.24
  },
  "macro": null,
  "premium": null,
@@ -4497,8 +4497,8 @@
    },
    "ssr": {
     "id": "ssr",
-    "value": 4.481,
-    "asof": "2026-11-19"
+    "value": 4.431,
+    "asof": "2026-11-20"
    },
    "exchange_reserve": {
     "id": "exchange-reserve",
@@ -4512,8 +4512,8 @@
    },
    "etf_flows": {
     "id": "etf-flows",
-    "value": -1441.6,
-    "asof": "2026-11-19"
+    "value": -2048.7,
+    "asof": "2026-11-20"
    }
   },
   "attribution": "数据来源: Kote Charts (kotecharts.com)"
@@ -4521,8 +4521,8 @@
  "deribit": {
   "put_call_oi": 0.833,
   "btc_options_oi": 399808.1,
-  "dvol": 52.71,
-  "dvol_chg_7d": 0.2315,
+  "dvol": 63.09,
+  "dvol_chg_7d": 0.4929,
   "asof": "2026-11-21"
  },
  "extra": {
@@ -4559,7 +4559,7 @@
   {
    "cat": "资金",
    "name": "稳定币总市值(美元)",
-   "value": 282534764134.83,
+   "value": 282556252429.24,
    "asof": "2026-11-21",
    "status": "ok",
    "note": ""
@@ -4663,7 +4663,7 @@
   {
    "cat": "期权",
    "name": "BTC 隐含波动率 DVOL",
-   "value": 52.71,
+   "value": 63.09,
    "asof": "2026-11-21",
    "status": "ok",
    "note": ""
@@ -4727,8 +4727,8 @@
   {
    "cat": "资金",
    "name": "稳定币供应比率(SSR)",
-   "value": 4.481,
-   "asof": "2026-11-19",
+   "value": 4.431,
+   "asof": "2026-11-20",
    "status": "ok",
    "note": ""
   },
@@ -4751,8 +4751,8 @@
   {
    "cat": "资金",
    "name": "ETF资金流(Kote,交叉验证)",
-   "value": -1441.6,
-   "asof": "2026-11-19",
+   "value": -2048.7,
+   "asof": "2026-11-20",
    "status": "ok",
    "note": ""
   },
