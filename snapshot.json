@@ -1,55 +1,55 @@
 {
- "updated": "2026-11-22T22:25:06+00:00",
+ "updated": "2026-11-22T23:07:31+00:00",
  "sources": {
   "etf": {
    "ok": false,
-   "at": "2026-11-22T22:25:07+00:00",
+   "at": "2026-11-22T23:07:32+00:00",
    "error": "Farside 表格中未找到 Total 列 (页面结构可能已变)",
    "fallback": "无可用数据"
   },
   "stable": {
    "ok": true,
-   "at": "2026-11-22T22:25:07+00:00"
+   "at": "2026-11-22T23:07:32+00:00"
   },
   "macro": {
    "ok": false,
-   "at": "2026-11-22T22:25:27+00:00",
+   "at": "2026-11-22T23:07:52+00:00",
    "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)",
    "fallback": "无可用数据"
   },
   "premium": {
    "ok": false,
-   "at": "2026-11-22T22:25:27+00:00",
+   "at": "2026-11-22T23:07:52+00:00",
    "error": "451 Client Error:  for url: https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
    "fallback": "无可用数据"
   },
   "derivs": {
    "ok": false,
-   "at": "2026-11-22T22:25:27+00:00",
+   "at": "2026-11-22T23:07:53+00:00",
    "error": "451 Client Error:  for url: https://fapi.binance.com/futures/data/globalLongShortAccountRatio?symbol=BTCUSDT&period=1d&limit=500",
    "fallback": "无可用数据"
   },
   "trend": {
    "ok": false,
-   "at": "2026-11-22T22:25:27+00:00",
+   "at": "2026-11-22T23:07:53+00:00",
    "error": "451 Client Error:  for url: https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1d&limit=500",
    "fallback": "无可用数据"
   },
   "cot": {
    "ok": true,
-   "at": "2026-11-22T22:25:28+00:00"
+   "at": "2026-11-22T23:07:54+00:00"
   },
   "onchain": {
    "ok": true,
-   "at": "2026-11-22T22:25:35+00:00"
+   "at": "2026-11-22T23:08:24+00:00"
   },
   "deribit": {
    "ok": true,
-   "at": "2026-11-22T22:25:35+00:00"
+   "at": "2026-11-22T23:08:25+00:00"
   },
   "extra": {
    "ok": true,
-   "at": "2026-11-22T22:26:55+00:00"
+   "at": "2026-11-22T23:09:45+00:00"
   }
  },
  "notes": {
@@ -4520,10 +4520,10 @@
   "attribution": "数据来源: Kote Charts (kotecharts.com)"
  },
  "deribit": {
-  "put_call_oi": 0.811,
-  "btc_options_oi": 420892.4,
+  "put_call_oi": 0.8103,
+  "btc_options_oi": 421091.4,
   "dvol": 56.01,
-  "dvol_chg_7d": 0.2669,
+  "dvol_chg_7d": 0.2744,
   "asof": "2026-11-22"
  },
  "extra": {
@@ -4656,7 +4656,7 @@
   {
    "cat": "期权",
    "name": "Deribit BTC 看跌/看涨持仓比",
-   "value": 0.811,
+   "value": 0.8103,
    "asof": "2026-11-22",
    "status": "ok",
    "note": ""
