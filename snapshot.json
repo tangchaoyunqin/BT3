@@ -1,55 +1,55 @@
 {
- "updated": "2026-11-27T03:02:10+00:00",
+ "updated": "2026-11-27T04:10:52+00:00",
  "sources": {
   "etf": {
    "ok": false,
-   "at": "2026-11-27T03:02:11+00:00",
+   "at": "2026-11-27T04:10:53+00:00",
    "error": "Farside 表格中未找到 Total 列 (页面结构可能已变)",
    "fallback": "无可用数据"
   },
   "stable": {
    "ok": true,
-   "at": "2026-11-27T03:02:11+00:00"
+   "at": "2026-11-27T04:10:53+00:00"
   },
   "macro": {
    "ok": false,
-   "at": "2026-11-27T03:02:31+00:00",
+   "at": "2026-11-27T04:11:13+00:00",
    "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)",
    "fallback": "无可用数据"
   },
   "premium": {
    "ok": false,
-   "at": "2026-11-27T03:02:31+00:00",
+   "at": "2026-11-27T04:11:13+00:00",
    "error": "451 Client Error:  for url: https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
    "fallback": "无可用数据"
   },
   "derivs": {
    "ok": false,
-   "at": "2026-11-27T03:02:32+00:00",
+   "at": "2026-11-27T04:11:13+00:00",
    "error": "451 Client Error:  for url: https://fapi.binance.com/futures/data/globalLongShortAccountRatio?symbol=BTCUSDT&period=1d&limit=500",
    "fallback": "无可用数据"
   },
   "trend": {
    "ok": false,
-   "at": "2026-11-27T03:02:32+00:00",
+   "at": "2026-11-27T04:11:13+00:00",
    "error": "451 Client Error:  for url: https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1d&limit=500",
    "fallback": "无可用数据"
   },
   "cot": {
    "ok": true,
-   "at": "2026-11-27T03:02:32+00:00"
+   "at": "2026-11-27T04:11:16+00:00"
   },
   "onchain": {
    "ok": true,
-   "at": "2026-11-27T03:02:41+00:00"
+   "at": "2026-11-27T04:11:46+00:00"
   },
   "deribit": {
    "ok": true,
-   "at": "2026-11-27T03:02:42+00:00"
+   "at": "2026-11-27T04:11:46+00:00"
   },
   "extra": {
    "ok": true,
-   "at": "2026-11-27T03:04:02+00:00"
+   "at": "2026-11-27T04:13:06+00:00"
   }
  },
  "notes": {
@@ -3342,7 +3342,7 @@
   "2026-11-24": 283245898367.0,
   "2026-11-25": 282477385151.0,
   "2026-11-26": 282227577069.0,
-  "2026-11-27": 281875952246.17
+  "2026-11-27": 281882921310.53
  },
  "macro": null,
  "premium": null,
@@ -4503,8 +4503,8 @@
    },
    "ssr": {
     "id": "ssr",
-    "value": 4.292,
-    "asof": "2026-11-25"
+    "value": 4.342,
+    "asof": "2026-11-26"
    },
    "exchange_reserve": {
     "id": "exchange-reserve",
@@ -4513,22 +4513,22 @@
    },
    "whale_acc": {
     "id": "whale-accumulation-score",
-    "value": 59742.21,
-    "asof": "2026-11-25"
+    "value": 60383.43,
+    "asof": "2026-11-26"
    },
    "etf_flows": {
     "id": "etf-flows",
-    "value": -2041.0,
-    "asof": "2026-11-25"
+    "value": 0.0,
+    "asof": "2026-11-26"
    }
   },
   "attribution": "数据来源: Kote Charts (kotecharts.com)"
  },
  "deribit": {
-  "put_call_oi": 0.7943,
-  "btc_options_oi": 443544.7,
-  "dvol": 49.7,
-  "dvol_chg_7d": 0.0702,
+  "put_call_oi": 0.7967,
+  "btc_options_oi": 444070.3,
+  "dvol": 49.47,
+  "dvol_chg_7d": 0.0077,
   "asof": "2026-11-27"
  },
  "extra": {
@@ -4565,7 +4565,7 @@
   {
    "cat": "资金",
    "name": "稳定币总市值(美元)",
-   "value": 281875952246.17,
+   "value": 281882921310.53,
    "asof": "2026-11-27",
    "status": "ok",
    "note": ""
@@ -4661,7 +4661,7 @@
   {
    "cat": "期权",
    "name": "Deribit BTC 看跌/看涨持仓比",
-   "value": 0.7943,
+   "value": 0.7967,
    "asof": "2026-11-27",
    "status": "ok",
    "note": ""
@@ -4669,7 +4669,7 @@
   {
    "cat": "期权",
    "name": "BTC 隐含波动率 DVOL",
-   "value": 49.7,
+   "value": 49.47,
    "asof": "2026-11-27",
    "status": "ok",
    "note": ""
@@ -4733,8 +4733,8 @@
   {
    "cat": "资金",
    "name": "稳定币供应比率(SSR)",
-   "value": 4.292,
-   "asof": "2026-11-25",
+   "value": 4.342,
+   "asof": "2026-11-26",
    "status": "ok",
    "note": ""
   },
@@ -4749,16 +4749,16 @@
   {
    "cat": "链上",
    "name": "巨鲸积累/派发得分",
-   "value": 59742.21,
-   "asof": "2026-11-25",
+   "value": 60383.43,
+   "asof": "2026-11-26",
    "status": "ok",
    "note": ""
   },
   {
    "cat": "资金",
    "name": "ETF资金流(Kote,交叉验证)",
-   "value": -2041.0,
-   "asof": "2026-11-25",
+   "value": 0.0,
+   "asof": "2026-11-26",
    "status": "ok",
    "note": ""
   },
